@@ -1,0 +1,39 @@
+body{
+	margin:auto;
+	text-align: center;
+	background-color: lightblue;
+	max-width: 80%;
+	color: black;
+}
+
+li{
+	list-style-type: none;
+}
+.all{
+	display: flex;
+    margin: 0 1em;
+    flex-flow: column;
+}
+.all-1{
+	position: relative;
+	order: 1;
+	display: flex;
+	flex-grow: 1;
+}
+.all-2{
+	position: relative;
+	order: 2;
+	display: flex;
+	flex-grow: 1;
+}
+.motor{
+	position: relative;
+	width: 25%;
+}
+h1{
+	font-size: 300%;
+}
+img{
+	width: 300px;
+	height: 220px;
+}
