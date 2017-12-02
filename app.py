@@ -15,7 +15,4 @@ def add(item):
         kerra.append(item)
         redirect("/")
 
-if os.environ.get('Heroku'):
-    run(host='0.0.0.0', port=os.environ.get('PORT'))
-else:
-    run(host='localhost', port=8080)
+run(host='0.0.0.0', port=os.environ.get('PORT'))
