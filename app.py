@@ -15,8 +15,15 @@ def add(item):
         kerra.append(item)
         redirect("/")
 
+def image(filename):
+    return static_file(filename, root='./images', mimetype='image/jpg')
+
+@route('/css/<filename:re:.*\.css>')
+def css(filename):
+       return static_file(filename, root='./css')
+
+
 if os.environ.get('Heroku'):
     run(host='0.0.0.0', port=os.environ.get('PORT'))
 else:
     run(host='localhost', port=8080)
-
