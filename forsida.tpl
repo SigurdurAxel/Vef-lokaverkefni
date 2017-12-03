@@ -87,7 +87,7 @@
 				<br><br>
 			</div><br>
 			<div class="motor">
-				<img src="static/mh7.jpg">
+				<img src="static/mh9.jpg">
 				<h4>Yamaha Virgo</h4>
 				<ul>
 					<li>Árgerð: 2001</li><br>
@@ -109,7 +109,7 @@
 				</ul>
 				<form action="/add/img6267"><button onclick="add()">Setja í kerru</button></form>
 				<br><br>
-				<form action="/kerra"><button>Checkout</button></form>
+				<form action="/kerra"><button>Staðfesta og borga</button></form>
 			</div><br>
 		</section>
 	</section>
