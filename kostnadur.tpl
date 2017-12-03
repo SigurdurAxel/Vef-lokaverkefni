@@ -16,9 +16,13 @@
 	<input type="email" name="mail" required><br>
 	Símanúmer:<br>
 	<input type="tel" name="simi" required><br>
-	Password:<br>
-	<input type="Password" name="psw" placeholder="minnsta lagi 8" min="8" required><br>
+	Kort númer:<br>
+	<input type="tel" name="kort" placeholder="Sláðu inn kort númerið þitt" required><br>
 	<br><br>
-	<input type="submit" value="notandi">
+	<input type="submit" value="Staðfesta"><br>
+	<br><br>
+	<a href='/kerra'>Til baka</a><br>
+	<br><br>
+	<a href='/'>Forsíða</a>
 </body>
 </html>
